@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: gray;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li{
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 1366;
+    margin: 0 auto;
+}
+
+.artigos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+.artigos article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.artigos article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigos article a:hover{
+    text-decoration: underline;
+}
+
+.artigos article p,
+.artigos article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigos article h3{
+    font-size: 32px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#esportes{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#esportes .artigos article a{
+    background-color: #009432;
+}
+
+#economia {
+    background-color: #fffa65;
+}
+
+#economia .artigos article a{
+    background-color: #ff9f1a;
+}
+
+#ciencia {
+    background-color: aquamarine;
+}
+
+#ciencia .artigos article a{
+    background-color: aqua;
+}
+
+#politica {
+    background-color: rgb(175, 173, 173);
+}
+
+#politica .artigos article a {
+    background-color: rgb(53, 53, 53);
+}
